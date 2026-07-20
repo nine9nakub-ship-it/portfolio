@@ -8,8 +8,15 @@ nav{
     display: flex;
     justify-content: space-between;
     padding: 10px 20px;
+    align-items: center;
 
 }
+
+.logo img{
+    width: 100px;
+    height: auto;
+}
+
 .menu{
     display: flex;
     list-style: none;
@@ -25,7 +32,7 @@ nav{
     color: blue;
 }
 section.banner{
-    background-color: darkslateblue;
+    background-color: rgb(255, 255, 255);
     height: 400px;
     display: flex;
     justify-content: center;
@@ -52,8 +59,9 @@ main div img{
 }
 
 footer{
-    background-color: cornflowerblue;
-    color: aliceblue;
+    background-color:white;
+    color: whitesmoke;
     text-align: center;
     padding: 10px;
+
 }
